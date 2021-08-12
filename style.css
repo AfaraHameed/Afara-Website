@@ -20,7 +20,7 @@ body {
   h1, h2, h3, h4, h5, h6 {
     font-family: "Raleway", sans-serif;
   }
-  /*-----------header-----------*/
+  /*--------------------------header------------------------*/
 #header{
   
     box-shadow: 0px 0px 25px 0 rgba(0, 0, 0, 0.08);
@@ -34,16 +34,75 @@ body {
     background: #e9e8e6;
 }
 
+ /*------------------------navbar--------------------------*/
   
-  #navbar{
-      color: #222222;;
-  }
   @media (min-width: 992px){
     .navbar li {
-        margin-left : 1em;
-        margin-right : 1em;
+        margin-left : 0.5em;
+        margin-right : 0.5em;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: rgb(18, 20, 20);
+        
+      }
+}
+nav .navbar-nav li a{
+  color: rgb(117, 167, 196) !important;
+  font-weight: bold;
+  }
+  nav .navbar-nav li a:hover{
+    color: rgb(47, 74, 75) !important;
     }
+
+
+.navbar ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+
+
+.navbar a, .navbar a:focus {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Raleway", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  color: #888888;
+  white-space: nowrap;
+  transition: 0.3s;
+  position: relative;
+}
+
+.navbar a i, .navbar a:focus i {
+  font-size: 12px;
+  line-height: 0;
+  margin-left: 5px;
+}
+
+.navbar > ul > li > a:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: -5px;
+  left: 0;
+  color: #34b7a7;
+  visibility: hidden;
+  width: 0px;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.navbar a:hover:before, .navbar li:hover > a:before, .navbar .active:before {
+  visibility: visible;
+  width: 25px;
+}
+
+.navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
+  color: #222222;
 }
 .linkedin{
   color: blue;
