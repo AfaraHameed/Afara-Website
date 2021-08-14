@@ -98,28 +98,6 @@ nav .navbar-nav li a{
   position: relative;
 }
 
-.mobile-nav-toggle {
-  color: #222222;
-  font-size: 28px;
-  cursor: pointer;
-  display: none;
-  line-height: 0;
-  transition: 0.5s;
-}
-
-.mobile-nav-toggle.bi-x {
-  color: #fff;
-}
-
-@media (max-width: 991px) {
-  .mobile-nav-toggle {
-    display: block;
-  }
-  .navbar ul {
-    display: none;
-  }
-}
-
 
 
 
@@ -176,4 +154,8 @@ nav .navbar-nav li a{
   }
 }
 
+/*---------about section--------*/
+#about h2{
+  color: black;
+}
 
