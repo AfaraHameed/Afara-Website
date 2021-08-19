@@ -160,14 +160,18 @@ nav .navbar-nav li a{
 
 #about p{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
 }
 #about h2 {
-  color: black;
+  color:white;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: bold;
   
 }
-
+#about{
+  background-color: black;
+  
+}
 
 .section-title {
   text-align: center;
@@ -545,3 +549,16 @@ animation: progress 1.5s ease-in-out forwards;
     transform: rotate(360deg);
   }
 }
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+  font-size: x-large;
+}
+.fa-github {
+  background: #000000;
+  color: white;
+  font-size: x-large;
+}
+
+
