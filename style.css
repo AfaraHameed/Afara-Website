@@ -231,16 +231,23 @@ nav .navbar-nav li a{
 
 background-color: #28b923;
 height: 1em;
+text-align: left;
 transition: .9s;
+
+
 }
 .progress{
   height: 0.7rem;
-  
+  transition: .9s;
 }
 .skills{
   background-color: black;
   color: white;
 }
+
+
+
+
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
@@ -253,6 +260,8 @@ transition: .9s;
   
   
 }
+
+
 
 /*--------------------------------------------------------------
 # Resume
@@ -586,4 +595,7 @@ transition: .9s;
   font-size: x-large;
 }
 
-
+.arrow_right{
+  float: right;
+  font-size: xx-large;
+}
