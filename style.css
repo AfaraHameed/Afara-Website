@@ -207,6 +207,9 @@ nav .navbar-nav li a{
 #about_li{
   color: white;
 }
+.img_me{
+  height: 50%;
+}
 /*-----------section skills---------------*/
 #skills h2{
  color: rgb(252, 248, 248);
